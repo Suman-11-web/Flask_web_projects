@@ -1,1 +1,72 @@
+# Simple Flask Web Application
 
+This is my first Flask web application built using Python and Flask.
+
+## Description
+
+This application creates a basic web server with a single route (`/`). When a user visits the home page, it displays the message:
+
+**Welcome to first Flask website**
+
+This project is created to understand the basics of Flask before building more advanced web applications.
+
+## Features
+
+- Built using Python and Flask
+- Single home page route (`/`)
+- Displays a welcome message
+- Runs on port 5500
+- Debug mode enabled for development
+
+## Code Explanation
+
+- `from flask import Flask`
+  - Imports the Flask framework.
+
+- `app = Flask(__name__)`
+  - Creates a Flask application instance.
+
+- `@app.route('/')`
+  - Defines the URL route for the home page.
+
+- `def home():`
+  - Function that is called when the home page is accessed.
+
+- `return "<h1>Welcome to first Flask website</h1>"`
+  - Returns an HTML heading to the browser.
+
+- `if __name__ == '__main__':`
+  - Ensures the application runs only when the file is executed directly.
+
+- `app.run(debug=True, port=5500)`
+  - Starts the Flask development server on port 5500 with debug mode enabled.
+
+## How to Run
+
+1. Install Flask:
+
+```bash
+pip install flask
+```
+
+2. Run the application:
+
+```bash
+python app.py
+```
+
+3. Open your browser and visit:
+
+```
+http://127.0.0.1:5500/
+```
+
+## Output
+
+```
+Welcome to first Flask website
+```
+
+## Conclusion
+
+This is my first Flask project and the starting point of my web development journey. I will continue adding more Flask concepts and projects, progressing from beginner level to production-level applications.
