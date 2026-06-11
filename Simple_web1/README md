@@ -2,7 +2,7 @@
 
 This is my first Flask web application built using Python and Flask.
 
-## Description
+# Description
 
 This application creates a basic web server with a single route (`/`). When a user visits the home page, it displays the message:
 
@@ -10,7 +10,7 @@ This application creates a basic web server with a single route (`/`). When a us
 
 This project is created to understand the basics of Flask before building more advanced web applications.
 
-## Features
+# Features
 
 - Built using Python and Flask
 - Single home page route (`/`)
@@ -18,7 +18,7 @@ This project is created to understand the basics of Flask before building more a
 - Runs on port 5500
 - Debug mode enabled for development
 
-## Code Explanation
+# Code Explanation
 
 - `from flask import Flask`
   - Imports the Flask framework.
@@ -41,7 +41,7 @@ This project is created to understand the basics of Flask before building more a
 - `app.run(debug=True, port=5500)`
   - Starts the Flask development server on port 5500 with debug mode enabled.
 
-## How to Run
+# How to Run
 
 1. Install Flask:
 
@@ -67,6 +67,7 @@ http://127.0.0.1:5500/
 Welcome to first Flask website
 ```
 
-## Conclusion
+#  Conclusion
 
-This is my first Flask project and the starting point of my web development journey. I will continue adding more Flask concepts and projects, progressing from beginner level to production-level applications.
+This is my first Flask project and the starting point of my web development journey.
+I will continue adding more Flask concepts and projects, progressing from beginner level to production-level applications.
