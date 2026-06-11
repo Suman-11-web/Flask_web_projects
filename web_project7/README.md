@@ -20,7 +20,7 @@ In this project, the user enters their name into a form. When the form is submit
 ## Project Structure
 
 ```
-project/
+web_project7/
 │
 ├── app.py
 └── templates/
