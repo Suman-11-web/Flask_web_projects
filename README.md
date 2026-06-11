@@ -166,6 +166,8 @@ Future projects will include:
 
 ---
 
+⭐ This repository represents my step-by-step journey of mastering Flask, from beginner concepts to production-ready web applications. Every project reflects my continuous learning and improvement in backend web development.
+
 # 👨‍💻 Author
 
 **Suman M**
